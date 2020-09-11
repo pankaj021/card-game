@@ -1,0 +1,29 @@
+body{
+    font: 16px "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: aliceblue;
+    /* -webkit-font-smoothing: antialiased; */
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    line-height: 1.8;
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    letter-spacing: 0.08em;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+figure{
+    margin: 0 !important;
+}
+a{
+    color: #007dcc;
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+img{
+    width: 30px;
+    height: 30px;
+}

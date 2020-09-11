@@ -1,0 +1,53 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_PATH=. node ./server/bin/www",
+    "webpack": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pan M",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "redux-logger": "^3.0.6",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "googleapis": "^59.0.0",
+    "mongoose": "^5.10.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-google-login": "^5.1.21",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-transition-group": "^1.2.1",
+    "redis": "^3.0.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.3.3"
+  }
+}
