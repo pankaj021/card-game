@@ -1,5 +1,5 @@
-const redis = require("redis");
-// const redis = require("redis-mock");
+// const redis = require("redis");
+const redis = require("redis-mock");
 const client = redis.createClient();
 
 module.exports = {
