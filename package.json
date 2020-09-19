@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "start": "NODE_PATH=. node ./server/bin/www",
-    "webpack": "webpack --mode development",
-    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pan M",
