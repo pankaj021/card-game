@@ -16,6 +16,15 @@ class NoRouteFound extends Error {
     }
 }
 
+class ChooseADifferentOption extends Error {
+    constructor(message) {
+        super(message || "Please choose a different option."); 
+        this.name = "ChooseADifferentOption"; 
+        Error.captureStackTrace(this, this.constructor);
+        this.status = 404;
+    }
+}
+
 class NoResourceFound extends Error {
     constructor(message) {
         super(message || "Resource not found."); 
@@ -25,8 +34,29 @@ class NoResourceFound extends Error {
     }
 }
 
+class GameOver extends Error {
+    constructor(message) {
+        super(message || "Game is over."); 
+        this.name = "GameOver"; 
+        Error.captureStackTrace(this, this.constructor);
+        this.status = 404;
+    }
+}
+
+class ResourceAlreadyExists extends Error {
+    constructor(message) {
+        super(message || "Resource already exists."); 
+        this.name = "ResourceAlreadyExists"; 
+        Error.captureStackTrace(this, this.constructor);
+        this.status = 404;
+    }
+}
+
 module.exports = {
     ApiReturnedError,
     NoRouteFound,
-    NoResourceFound
+    NoResourceFound,
+    ChooseADifferentOption,
+    GameOver,
+    ResourceAlreadyExists
 }

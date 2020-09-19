@@ -10,8 +10,8 @@ const GameSchema = {
         required: [true, "Enter player2 Id."]
     },
     openCards: {
-        type: [{}, {}],
-        default: [{}, {}]
+        type: [[Number], [Number]],
+        default: [[], []]
     },
     status: {
         type: String,

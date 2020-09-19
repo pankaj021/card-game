@@ -1,0 +1,26 @@
+.select{
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    justify-content: space-between;
+}
+.select label{
+    margin-right: 8px;
+}
+.button{
+    background: green;
+    color: #fff;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 8px;
+}
+.disabled{
+    background: #bbb;
+    cursor: not-allowed !important;
+}
+.input input{
+    padding: 8px;
+    font-size: 16px;
+}

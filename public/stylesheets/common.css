@@ -1,10 +1,10 @@
 body{
     font: 16px "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: aliceblue;
+    background: #f1f1f1 !important;
     /* -webkit-font-smoothing: antialiased; */
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
-    line-height: 1.8;
+    line-height: 1.5;
     margin: 0;
     font-family: Poppins;
     font-style: normal;

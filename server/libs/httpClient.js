@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-module.exports = async (options) => {
-    return new Promise((res, rej) => {
+module.exports = (options) => {
+    return new Promise(async (res, rej) => {
         try {
             const res = await axios(options);
             return res(res.data);
